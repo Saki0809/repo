@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="car.png" type="image/jpg">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <image src="registration.png" type="image/png" alt="registration" width="500px" height="200px">
+
+
+    </header>
+
+    <form action="index.php" method="POST">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="saketh varma" required>
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="12345678" required>
+        <br><br>
+        <label for="email">email:</label>
+        <input type="email" placeholder="saketh@example.com" id="email" required>
+        <br><br>
+        <label for="birthdate">birthdate:</label>
+        <input type="date" id="birthdate" required>
+        <br><br>
+        <label for="phone number">phone number:</label>
+        <input type="tel" id="phone number" placeholder="9876543210" required>
+        <br><br>
+        <label for="degree">degree:</label>
+        <select id="degree" required>
+            <option>B.ed</option>
+            <option>M.sc</option>
+            <option>M.tech</option>
+            <option>B.tech</option>
+            <option>B.com</option>
+        </select>
+        <br><br>
+        <label for="subscribe">subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" not-checked>
+        <br><br>
+        <label for="comments">comments:</label>
+        <textarea id="comments" rows="5" cols="50"></textarea>
+        <br><br>
+        <label for="image">upload image:</label>
+        <input type="file" accept="image/jpg" id="image">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+    <br><br><br>
+    <h2>Thank you for registering!</h2>
+
+    <footer>
+        <p>© 2023 google. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:vsaketh902@gmail.com">vsaketh902@gmail.com</a></p>
+    </footer>
+
+
+</body>
+
+</html>
